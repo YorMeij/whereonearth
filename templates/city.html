@@ -1,0 +1,14 @@
+<div class="city-view" style="background-image: url('/assets/{image}');">
+    <div class="title">{name}</div>
+    <div class="options">
+        <p>
+            Kies een lokatie om op onderzoek uit te gaan:
+        </p>
+        <ul>
+            {#locations}
+            <li class="option" data-location="{id}">{name}</li>
+            {/locations}
+            <li class="option" data-location="airport">Vliegveld</li>
+        </ul>
+    </div>
+</div>

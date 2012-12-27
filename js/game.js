@@ -16,7 +16,7 @@
             // Load game locations
             queue.push(function(done) {
                 Game.engine.load('/data/locations.json', function(data) {
-                    Game.locations = data;
+                    Game.cities = data;
                     done(null);
                 });
             });
@@ -47,7 +47,7 @@
                 Game.engine.$el = el;
 
                 // Hack the first location
-                Game.engine.player.location(Game.locations[0]);
+                Game.engine.player.city(Game.cities[0]);
 
                 // Turn to the first state
                 Game.engine.turn('city');
@@ -133,8 +133,16 @@
     function Player() {
         this.name = "Sherlock Holmes";
 
+        this._city = null;
         this._location = null;
     }
+
+    Player.prototype.city = function(city) {
+        if (!arguments.length) return this._city;
+
+        this._city = city;
+        return this;
+    };
 
     /**
      * Get or set the current player location
