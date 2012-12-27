@@ -3,12 +3,114 @@
         "id":   "amsterdam",
         "name": "Amsterdam",
         "map":  { "x": "0", "y": "0" },
+        "image": "amsterdam.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "redlight", "name": "Rosse buurt", "image": "amsterdam_redlight.jpg" },
+            { "id": "shipyard", "name": "Scheepvaarthuis", "image": "amsterdam_scheepvaarthuis.jpg" },
+            { "id": "palace",   "name": "Paleis op de Dam", "image": "amsterdam_dampaleis.jpg" }
+        ]
+    },
+    {
+        "id":   "london",
+        "name": "London",
+        "map":  { "x": "0", "y": "0" },
+        "image": "london.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "buckingham",           "name": "Het Buckingham Paleis", "image": "london_buckinghampalace.jpg" },
+            { "id": "royalalberthall",      "name": "Royal Albert Hall", "image": "london_royalalberthall.jpg" },
+            { "id": "naturalhistorymuseum", "name": "Natural History Museum", "image": "london_naturalhistorymuseum.jpg" }
+        ]
+    },
+    {
+        "id":   "moskou",
+        "name": "Moskou",
+        "map":  { "x": "0", "y": "0" },
         "image": "",
         "clues":     [],
         "locations": [
-            { "id": "redlight", "name": "Rosse buurt", "image": "" },
-            { "id": "shipyard", "name": "Scheepvaarthuis", "image": "" },
-            { "id": "palace",   "name": "Paleis op de Dam", "image": "" },
+            { "id": "mausoleum",    "name": "Mausoleum", "image": "moskou_mausoleum.jpg" },
+            { "id": "poesjkin",     "name": "Poesjkinmuseum", "image": "moskou_poesjkinmuseum.jpg" },
+            { "id": "triomfpaleis", "name": "Triomfpaleis", "image": "moskou_triomfpaleis.jpg" }
+        ]
+    },
+    {
+        "id":   "tokyo",
+        "name": "Tokyo",
+        "map":  { "x": "0", "y": "0" },
+        "image": "tokyo.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "university",     "name": "Universiteit van Tokyo", "image": "tokyo_university.jpg" },
+            { "id": "sumo",           "name": "Sumo worstelaars", "image": "tokyo_sumo.jpg" },
+            { "id": "nationalmuseum", "name": "Nationaal Museum nieuwe wetenschappen en innovatie", "image": "tokyo_museum.jpg" }
+        ]
+    },
+    {
+        "id":   "sydney",
+        "name": "Sydney",
+        "map":  { "x": "0", "y": "0" },
+        "image": "sydney.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "tower",     "name": "Tower of Sydney", "image": "sydney_tower.jpg" },
+            { "id": "townhall",           "name": "Gemeentehuis", "image": "sydney_townhall.jpg" },
+            { "id": "operahouse", "name": "Opera gebouw", "image": "sydney_operahouse.jpg" }
+        ]
+    },
+
+
+
+    {
+        "id":   "bombay",
+        "name": "Bombay",
+        "map":  { "x": "0", "y": "0" },
+        "image": "Bombay_Skyline.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "gateway", "name": "Gateway", "image": "Bombay_Gateway.jpg" },
+            { "id": "gemeentehuis", "name": "Gemeentehuis", "image": "Bombay_ Gemeentehuis.jpg" },
+            { "id": "thetaj",   "name": "The Taj Palace", "image": "Bombay_The Taj Palace.jpg" }
+        ]
+    },
+
+    {
+        "id":   "istanbul",
+        "name": "Istanbul",
+        "map":  { "x": "0", "y": "0" },
+        "image": "Istanbul_Skyline.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "hippodrome", "name": "Hippodroom", "image": "Istanbul_Hippodrome.jpg" },
+            { "id": "markt", "name": "Markt", "image": "Istanbul_Markt.jpg" },
+            { "id": "moskee",   "name": "Moskee", "image": "Istanbul_Moskee.jpg" }
+        ]
+    },
+
+    {
+        "id":   "newyork",
+        "name": "New_York",
+        "map":  { "x": "0", "y": "0" },
+        "image": "New_York_skyline.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "broadway", "name": "Broadway", "image": "New_York_Broadway.jpg" },
+            { "id": "vrijheidsbeeld", "name": "Vrijheidsbeeld", "image": "New_York_Statue.jpg" },
+            { "id": "wallstreet",   "name": "Wall_Street", "image": "New_York_Wall street.jpg" }
+        ]
+    },
+
+    {
+        "id":   "peking",
+        "name": "Peking",
+        "map":  { "x": "0", "y": "0" },
+        "image": "peking.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "muur", "name": "Chinese Muur", "image": "Peking_Chinese muur.jpg" },
+            { "id": "stadion", "name": "Het Vogelnest", "image": "Peking_Station.jpg" },
+            { "id": "verboden_stad",   "name": "Verboden Stad", "image": "Peking_Verboden Stad.jpg" }
         ]
     }
 ]
