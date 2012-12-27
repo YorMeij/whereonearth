@@ -38,7 +38,12 @@
         "name": "Moskou",
         "map":  { "x": "720", "y": "80" },
         "image": "moskou.jpg",
-        "clues":     [],
+        "clues":     [
+            "Het is ochtend en de zon begint weer te schijnen. Opeens zie je in de goot allemaal mensen liggen. Kots is overal en je vind het er verschikkelijk uit zien. Een van de mensen die nog enigzinds bij bewustzijn is probeer je aan te spreken. \"Hoe zijn jullie allemaal ziek geworden?\" \"Ziek? ... Ik niet ziek... Leuke avond gehad ... Die man ... Lekker drankje... Vuurwater was lekker.\" Hoofdschuddend om hun domheid ga je weer verder.",
+            "Coerdes heeft je weer een clue achtergelaten. Althans niet opzettelijk, maar zijn schoenen staan overal in de aarde. Ze wijzen allemaal naar de prullenbakken. Je staat even stil. Wacht even! Wat is er met die prullenbakken aan de hand? Ze staan van klein naar groot. Waarom zou Coerdes dat nou weer willen? Je zucht terwijl je hier de betekenis van probeert te achterhalen.",
+            "Je loopt een winkeltje in. In de winkel staan drie kleine kinderen vakken te vullen. \"Waaorm zitten jullie niet op school?\" vraag je. Ze antwoorden: \"Omdat mij vader heeft bedacht dat iedereen moet werken, net als hij.\" \"Maar jullie zijn kinderen.\" \"Dus? Mijn vader hoorde gisteren van iemand dat dat in andere landen heel normaal is. Iedereen moet voortaan gelijk zijn vindt hij.\"",
+            "Je komt tot de conclusie dat Coerdes hier niet is. Je besluit een steegje in te lopen en daar je hoofd hard tegen een muur te slaan. Je gaat weer terug naar het vliegveld, want hier zit je niet goed."
+        ],
         "locations": [
             { "id": "mausoleum",    "name": "Mausoleum", "image": "moskou_mausoleum.jpg" },
             { "id": "poesjkin",     "name": "Poesjkinmuseum", "image": "moskou_poesjkinmuseum.jpg" },
@@ -67,7 +72,12 @@
         "name": "Sydney",
         "map":  { "x": "1105", "y": "450" },
         "image": "sydney.jpg",
-        "clues":     [],
+        "clues":     [
+            "Overal in de stad vindt je sporen van Coerdes. Opeens valt je oog op een klein blaadje op de grond. Het blijkt een filmkaartje te zijn. Maar hij ligt er al de hele dag dus het is niet meer te zien val welke film het is. Wel zie je dat hij er iets op heeft geschreven. P. Sherman, 42 Wallaby Way. Een adres zo te zien. Maar ja waar? Je besluit het maar te laten voor wat het is.",
+            "Echt overal in de stad vind je sporen van Coerdes. Hij is hier zeker geweest. Je kan inmiddels zijn schoenen herkennen en je verwacht dat hij zeker dit gebouw in is gelopen. De opera, je wist niet dat hij daar van hield. Je besluit hem te kijken. Hij ging over vikingen, die met grote bijlen zich ontdeden van hun vijanden. Leuk om te zien vond je het wel.",
+            "En weer een aanwijzing. Nu is Coerdes zeker dit veldje op gegaan. Midden op het veld lijkt het wel dat hij het veld kapot heeft getrapt. Er zit enige vorm van patroon in maar echt dansen zal het wel niet zijn. \"Als jij maar niet zo gaat schreeuwen!\" hoor je achter je \"Gisteren jaagde die gek al mijn klanten weg met dat stomme gedans en geschreeuw van hem. Ga weg! Toerist!\" En je besluit hier maar snel weg te gaan.",
+            "Radeloos ga je op een terras zitten. Niemand die je spreekt heeft Coerdes gezien. Je begint je verhaal weer overnieuw en komt tot de conclusie dat je iets fout hebt gedaan. \"Pff wat nu?\" mompel je terwijl je je cola opdrinkt."
+        ],
         "locations": [
             { "id": "tower",     "name": "Tower of Sydney", "image": "sydney_tower.jpg" },
             { "id": "townhall",           "name": "Gemeentehuis", "image": "sydney_townhall.jpg" },
@@ -98,7 +108,12 @@
         "name": "Istanbul",
         "map":  { "x": "665", "y": "155" },
         "image": "Istanbul_Skyline.jpg",
-        "clues":     [],
+        "clues":     [
+            "Wie zoekt zal vinden is een oud spreekwoord. Maar Coerdes lijkt wel in rook te zijn opgegaan. Je gaat op een terrasje zitten en besteld een kop hete thee. De thee moet natuurlijk flink afkoelen en hele wolken stoom stijgt op uit het kopje. Dan wordt er voor je een raar apparaat gezet. Waar zou dat dan voor dienen. De serveerster zegt dat dat iets met rook zou moeten doen, maar dat ze hem pas sinds gisteren hebben. Vreemd.",
+            "Op de hoek staat een grote berg met papier. Als Coerdes er iets heeft ingegooit zou dat bovenop moeten liggen. Een kaartje naar een show ligt erbij. Er staat alleen maar een vrouw op, ze kijkt je verleidelijk aan terwijl de belletjes aan haar gewaad heel exotisch staan. De show is vast uitverkocht, dus erheen gaan is helaas geen optie. Maar je weet nu wel wat Coerdes heeft gedaan gisteren.",
+            "Het begint etenstijd te worden. De mensen kijken elkaar raar aan als er een invasie van karretjes het centrum in gaat. Dit hebben zelfs de lokale bewoners niet gezien. Er staan bakken met dampend vlees in de karretjes en in combinatie met de knoflooksaus is het best lekker. \"Waar hebben jullie dit dan weer geleerd?\" vraag je aan de eigenaar van een van de karretjes. \"Een man gisteren vertelde ons van het gat in de markt dat wij nu vullen. Jammer dat het er zo veel zijn.\"",
+            "Niemand heeft Coerdes gezien in deze stad. Of hij is supergoed geworden of hij is hier niet geweest. Je hoopt natuurlijk het eerste en bedenkt je dat er misschien nog in de cafés wat mensen zijn die je nog niet gevraagt hebt. Met goede moed ga je naar de cafés. Als je daar komt bleken ze gisteren dicht te zijn geweest. Wat jammer nou."
+        ],
         "locations": [
             { "id": "hippodrome", "name": "Hippodroom", "image": "Istanbul_Hippodrome.jpg" },
             { "id": "markt", "name": "Markt", "image": "Istanbul_Markt.jpg" },
@@ -129,7 +144,12 @@
         "name": "Peking",
         "map":  { "x": "980", "y": "160" },
         "image": "peking.jpg",
-        "clues":     [],
+        "clues":     [
+            "Als je rondloopt dan zie je opeens een winkel met camera voor de deur. Misschien heeft hij Coerdes wel opgenomen. Je besluit naar binnen te gaan en de camerabeelden te vragen. De man is heel vriendelijk en laat je de beelden zien. Je ziet Coerdes lopen, maar met een vogelnest op zijn hoofd? Waarom zou die gek dat nou weer hebben gedaan? Je gaat weer peizend opweg.",
+            "Je loopt door de stad en ziet een groot billboard met je naam erop. Wie dat gedaan heeft hoef je geen vraag voor te stellen. Maar verder staat er niks op het bord. Behalve witte strepen. Of is het een wit bord met zwarte strepen. Alsof ze het met grafiti over wouden spuiten. Waaorm zou iemand dat nou doen. \"Vreemd\" mompel je terwijl je wegloopt.",
+            "\"Koop hier uw bakstenen!\" \"Koop hier uw bakstenen!\" \"Koop hiéééér uw bakstenen!\" roept een standhouder. \"Waarom zou ik bakstenen kopen?\" verbaast antwoordt de man \"Wie wil dat nou niet?\" \"Wie heeft u dat dan weer wijsgemaakt. Bakstenen raak je aan de straatstenen nog niet kwijt.\" \"Een man uit uw land als ik het accent goed hoor.\" \"Juist ja, veel succes dan nog.\"",
+            "Radeloos ga je op een terras zitten. Niemand die je spreekt heeft Coerdes gezien. Je begint je verhaal weer overnieuw en komt tot de conclusie dat je iets fout hebt gedaan. \"Pff wat nu?\" mompel je terwijl je je cola opdrinkt."
+        ],
         "locations": [
             { "id": "muur", "name": "Chinese Muur", "image": "Peking_Chinese muur.jpg" },
             { "id": "stadion", "name": "Het Vogelnest", "image": "Peking_Station.jpg" },

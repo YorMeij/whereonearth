@@ -32,6 +32,7 @@
         findClue: function(city, location) {
             var nextCity = this.findNextCity(city, location);
             if (nextCity === null) {
+                console.log("Dead end clue");
                 return city.clues[3];
             }
 
@@ -39,6 +40,7 @@
             for (var i = 0; i < 3; i++) {
                 if (location.id == city.locations[i].id) {
                     if (nextCity.clues && nextCity.clues.length > 0) {
+                        console.log("Clue:", nextCity.clues[i]);
                         return nextCity.clues[i];
                     }
                     return "Placeholder clue " + i;

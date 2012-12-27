@@ -62,12 +62,12 @@
                 // Choose random first location
                 var position = parseInt(Math.random() * Game.cities.length, 10);
                 var city = Game.cities[position];
-                console.log("Start city:", city);
+                Game.log("Start city:", city);
                 Game.thief.city(city);
                 Game.player.city(city);
 
                 var nextCity = Game.cities[parseInt(Math.random() * Game.cities.length, 10)];
-                Game.thief.city("Next City:", nextCity);
+                Game.thief.city(nextCity);
 
                 // Turn to the first state
                 Game.engine.turn('intro');
