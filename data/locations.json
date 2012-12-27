@@ -1,0 +1,14 @@
+[
+    {
+        "id":   "amsterdam",
+        "name": "Amsterdam",
+        "map":  { "x": "0", "y": "0" },
+        "image": "",
+        "clues":     [],
+        "locations": [
+            { "id": "redlight", "name": "Rosse buurt", "image": "" },
+            { "id": "shipyard", "name": "Scheepvaarthuis", "image": "" },
+            { "id": "palace",   "name": "Paleis op de Dam", "image": "" },
+        ]
+    }
+]
