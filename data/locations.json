@@ -12,39 +12,51 @@
         ]
     },
     {
-        "id":   "amsterdam",
-        "name": "Amsterdam",
+        "id":   "london",
+        "name": "London",
         "map":  { "x": "0", "y": "0" },
-        "image": "",
+        "image": "london.jpg",
         "clues":     [],
         "locations": [
-            { "id": "redlight", "name": "Rosse buurt", "image": "" },
-            { "id": "shipyard", "name": "Scheepvaarthuis", "image": "" },
-            { "id": "palace",   "name": "Paleis op de Dam", "image": "" },
+            { "id": "buckingham",           "name": "Het Buckingham Paleis", "image": "london_buckinghampalace.jpg" },
+            { "id": "royalalberthall",      "name": "Royal Albert Hall", "image": "london_royalalberthall.jpg" },
+            { "id": "naturalhistorymuseum", "name": "Natural History Museum", "image": "london_naturalhistorymuseum.jpg" }
         ]
     },
     {
-        "id":   "amsterdam",
-        "name": "Amsterdam",
+        "id":   "moskou",
+        "name": "Moskou",
         "map":  { "x": "0", "y": "0" },
         "image": "",
         "clues":     [],
         "locations": [
-            { "id": "redlight", "name": "Rosse buurt", "image": "" },
-            { "id": "shipyard", "name": "Scheepvaarthuis", "image": "" },
-            { "id": "palace",   "name": "Paleis op de Dam", "image": "" },
+            { "id": "mausoleum",    "name": "Mausoleum", "image": "moskou_mausoleum.jpg" },
+            { "id": "poesjkin",     "name": "Poesjkinmuseum", "image": "moskou_poesjkinmuseum.jpg" },
+            { "id": "triomfpaleis", "name": "Triomfpaleis", "image": "moskou_triomfpaleis.jpg" }
         ]
     },
     {
-        "id":   "amsterdam",
-        "name": "Amsterdam",
+        "id":   "tokyo",
+        "name": "Tokyo",
         "map":  { "x": "0", "y": "0" },
-        "image": "",
+        "image": "tokyo.jpg",
         "clues":     [],
         "locations": [
-            { "id": "redlight", "name": "Rosse buurt", "image": "" },
-            { "id": "shipyard", "name": "Scheepvaarthuis", "image": "" },
-            { "id": "palace",   "name": "Paleis op de Dam", "image": "" },
+            { "id": "university",     "name": "Universiteit van Tokyo", "image": "tokyo_university.jpg" },
+            { "id": "sumo",           "name": "Sumo worstelaars", "image": "tokyo_sumo.jpg" },
+            { "id": "nationalmuseum", "name": "Nationaal Museum nieuwe wetenschappen en innovatie", "image": "tokyo_museum.jpg" }
+        ]
+    },
+    {
+        "id":   "sydney",
+        "name": "Sydney",
+        "map":  { "x": "0", "y": "0" },
+        "image": "sydney.jpg",
+        "clues":     [],
+        "locations": [
+            { "id": "tower",     "name": "Tower of Sydney", "image": "sydney_tower.jpg" },
+            { "id": "townhall",           "name": "Gemeentehuis", "image": "sydney_townhall.jpg" },
+            { "id": "operahouse", "name": "Opera gebouw", "image": "sydney_operahouse.jpg" }
         ]
     }
 ]
