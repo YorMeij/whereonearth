@@ -26,9 +26,8 @@ body {
     position: relative;
     min-height: 800px;
     background-image: url('/assets/world-map.png');
-    background-size: 100%;
+    background-size: 1280px;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 .airport-view .world-map .pin {

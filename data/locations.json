@@ -2,7 +2,7 @@
     {
         "id":   "amsterdam",
         "name": "Amsterdam",
-        "map":  { "x": "590", "y": "225" },
+        "map":  { "x": "590", "y": "105" },
         "image": "amsterdam.jpg",
         "clues":     [],
         "locations": [
@@ -14,7 +14,7 @@
     {
         "id":   "london",
         "name": "London",
-        "map":  { "x": "565", "y": "225" },
+        "map":  { "x": "565", "y": "110" },
         "image": "london.jpg",
         "clues":     [],
         "locations": [
@@ -26,8 +26,8 @@
     {
         "id":   "moskou",
         "name": "Moskou",
-        "map":  { "x": "685", "y": "200" },
-        "image": "",
+        "map":  { "x": "720", "y": "80" },
+        "image": "moskou.jpg",
         "clues":     [],
         "locations": [
             { "id": "mausoleum",    "name": "Mausoleum", "image": "moskou_mausoleum.jpg" },
@@ -38,7 +38,7 @@
     {
         "id":   "tokyo",
         "name": "Tokyo",
-        "map":  { "x": "1050", "y": "300" },
+        "map":  { "x": "1060", "y": "170" },
         "image": "tokyo.jpg",
         "clues":     [],
         "locations": [
@@ -50,7 +50,7 @@
     {
         "id":   "sydney",
         "name": "Sydney",
-        "map":  { "x": "1105", "y": "575" },
+        "map":  { "x": "1105", "y": "450" },
         "image": "sydney.jpg",
         "clues":     [],
         "locations": [
@@ -63,8 +63,8 @@
     {
         "id":   "bombay",
         "name": "Bombay",
-        "map":  { "x": "870", "y": "350" },
-        "image": "Bombay_Skyline.jpg",
+        "map":  { "x": "830", "y": "240" },
+        "image": "bombay_skyline.jpg",
         "clues":     [],
         "locations": [
             { "id": "gateway", "name": "Gateway", "image": "Bombay_Gateway.jpg" },
@@ -76,7 +76,7 @@
     {
         "id":   "istanbul",
         "name": "Istanbul",
-        "map":  { "x": "685", "y": "275" },
+        "map":  { "x": "665", "y": "155" },
         "image": "Istanbul_Skyline.jpg",
         "clues":     [],
         "locations": [
@@ -89,7 +89,7 @@
     {
         "id":   "newyork",
         "name": "New_York",
-        "map":  { "x": "285", "y": "300" },
+        "map":  { "x": "320", "y": "150" },
         "image": "New_York_skyline.jpg",
         "clues":     [],
         "locations": [
@@ -102,7 +102,7 @@
     {
         "id":   "peking",
         "name": "Peking",
-        "map":  { "x": "995", "y": "330" },
+        "map":  { "x": "980", "y": "160" },
         "image": "peking.jpg",
         "clues":     [],
         "locations": [
