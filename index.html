@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Where on earth is ...</title>
+    </head>
+    <body>
+
+        <!-- Libraries -->
+        <script type="text/javascript" src="/js/lib/debug.js"></script>
+        <script type="text/javascript" src="/js/lib/jquery-1.8.3.js"></script>
+        <script type="text/javascript" src="/js/lib/underscore-1.4.3.js"></script>
+        <script type="text/javascript" src="/js/lib/backbone-0.9.9.js"></script>
+
+        <!-- Game core -->
+        <script type="text/javascript" src="/js/game.js"></script>
+
+        <!-- Game states -->
+        <script type="text/javascript" src="/js/states/0.splash.js"></script>
+        <script type="text/javascript" src="/js/states/1.menu.js"></script>
+        <script type="text/javascript" src="/js/states/2.intro.js"></script>
+        <script type="text/javascript" src="/js/states/3.city.js"></script>
+        <script type="text/javascript" src="/js/states/4.airport.js"></script>
+        <script type="text/javascript" src="/js/states/5.travel.js"></script>
+        <script type="text/javascript" src="/js/states/6.end.js"></script>
+        <script type="text/javascript" src="/js/states/7.credits.js"></script>
+
+        <!-- init -->
+        <script type="text/javascript">
+            $(function() {
+                // Start our game engine
+                Game.engine.start();
+            });
+        </script>
+
+    </body>
+</html>
