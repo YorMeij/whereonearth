@@ -5,7 +5,26 @@
             // Placeholder for our template
             this.template = options.template;
         },
+        events: {
+            "click .go": "proceed"
+        },
+        proceed: function() {
+            Game.engine.turn('city');
+        },
+        render: function() {
+            var $el = this.$el;
 
+            var context = {
+                artifact: Game.stolen,
+                city: Game.player.city()
+            };
+
+            this.template(context, function(error, html) {
+                $el.html(html);
+            });
+
+            return this.$el;
+        }
     });
 
     // Build a new state object

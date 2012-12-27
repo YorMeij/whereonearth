@@ -5,7 +5,6 @@
         // Create a simple debug logger
         log: debug('game'),
         artifacts: [],
-
         player: new Player(), // Current player
         thief: new Player(), // the thief
         cities: [],
@@ -56,6 +55,10 @@
                 // Register the canvas element
                 Game.engine.$el = el;
 
+                // Choose random artifact
+                var artifactIndex = parseInt(Math.random() * Game.artifacts.length - 1, 10);
+                Game.stolen = Game.artifacts[artifactIndex];
+
                 // Choose random first location
                 var position = parseInt(Math.random() * Game.cities.length, 10);
                 var city = Game.cities[position];
@@ -67,7 +70,7 @@
                 Game.thief.city("Next City:", nextCity);
 
                 // Turn to the first state
-                Game.engine.turn('city');
+                Game.engine.turn('intro');
             });
         }
     };
