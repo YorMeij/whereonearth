@@ -9,7 +9,7 @@
         player: new Player(), // Current player
         thief: new Player(), // the thief
         cities: [],
-        
+
         load: function(callback) {
             // Load queue
             var queue = [];
@@ -58,7 +58,7 @@
                 Game.player.city(city);
 
                 var nextCity = Game.cities[parseInt(Math.random() * Game.cities.length, 10)];
-                Game.thief.city("Next City", nextCity);
+                Game.thief.city("Next City:", nextCity);
 
                 // Turn to the first state
                 Game.engine.turn('city');

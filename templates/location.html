@@ -1,9 +1,12 @@
 <div class="location-view" style="background-image: url('/assets/{image}');">
-    <div class="title">{location.name}</div>
+    <div class="title">{name} - {location.name}</div>
     <div class="location"><img src="/assets/{location.image}" /></div>
     <div class="options">
         <p>
-            Tekst met de clue van deze locatie.
+            {clue}
+        </p>
+        <p>
+            Kies een lokatie om op onderzoek uit te gaan:
         </p>
         <ul>
             {#locations}
