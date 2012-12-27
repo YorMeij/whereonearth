@@ -5,6 +5,24 @@ body {
     margin: 0;
 }
 
+/* AIRPORT STATE */
+
+.airport-view {
+
+}
+
+.airport-view .world-map {
+    position: relative;
+    background-color: red;
+}
+
+.airport-view .world-map .pin {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+}
+
 /* CITY STATE */
 
 .city-view {

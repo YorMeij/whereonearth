@@ -5,7 +5,7 @@
         // Create a simple debug logger
         log: debug('game'),
         artifacts: [],
-        locations: [],
+        cities: [],
         load: function(callback) {
             // Load queue
             var queue = [];
