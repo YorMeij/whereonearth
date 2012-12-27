@@ -13,8 +13,35 @@
             this.city = Game.player.city();
             this.location = Game.player.location();
 
+            this.clue = this.findClue(this.city, this.location);
             console.log(this.location);
-            // 
+            console.log("Clue:", this.clue);
+            
+        },
+        findNextCity: function(city, location) {
+            for (var i = 0; i < Game.thief._city.length; i++) {
+                var _city = Game.thief._city[i];
+                if (city.id === _city.id) {
+                    var nextCity = Game.thief._city[i + 1];
+                    console.log("Next city:", nextCity);
+                    return nextCity;
+                }
+            }
+            return null;
+        },
+        findClue: function(city, location) {
+            var nextCity = this.findNextCity(city, location);
+            if (nextCity === null) {
+                return city.clues[4];
+            }
+
+            // we use the index off the location for selection of the clue
+            for (var i = 0; i < 3; i++) {
+                if (location.id == city.locations[i].id) {
+                    //return nextCity.clues[i];
+                    return "Placeholder clue " + i;
+                }
+            }
         },
         turn: function(event) {
             var $target = $(event.target);
@@ -42,7 +69,8 @@
                 name:      this.city.name,
                 image:     this.city.image,
                 location:  this.location,
-                locations: this.city.locations
+                locations: this.city.locations,
+                clue:      this.clue
             };
 
             this.template(context, function(error, html) {
