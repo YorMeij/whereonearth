@@ -1,0 +1,15 @@
+<div class="location-view" style="background-image: url('/assets/{image}');">
+    <div class="title">{location.name}</div>
+    <div class="location"><img src="/assets/{location.image}" /></div>
+    <div class="options">
+        <p>
+            Tekst met de clue van deze locatie.
+        </p>
+        <ul>
+            {#locations}
+            <li class="option" data-location="{id}">{name}</li>
+            {/locations}
+            <li data-location="airport">Vliegveld</li>
+        </ul>
+    </div>
+</div>
