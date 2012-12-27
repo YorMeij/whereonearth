@@ -10,8 +10,11 @@
             this.template = options.template;
 
             // Get the player location
-            this.city = Game.engine.player.city();
-            this.location = Game.engine.player.location();
+            this.city = Game.player.city();
+            this.location = Game.player.location();
+
+            console.log(this.location);
+            // 
         },
         turn: function(event) {
             var $target = $(event.target);
@@ -24,7 +27,7 @@
             // Update the player position
             this.city.locations.forEach(function(site) {
                 if (site.id === location) {
-                    Game.engine.player.location(site);
+                    Game.engine.location(site);
                 }
             });
 

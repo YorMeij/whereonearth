@@ -6,6 +6,9 @@
         log: debug('game'),
         artifacts: [],
         locations: [],
+        player: new Player(), // Current player
+        thief: new Player(), // the thief
+
         load: function(callback) {
             // Load queue
             var queue = [];
@@ -46,8 +49,15 @@
                 // Register the canvas element
                 Game.engine.$el = el;
 
-                // Hack the first location
-                Game.engine.player.city(Game.cities[0]);
+                // Choose random first location
+                var position = parseInt(Math.random() * Game.cities.length, 10);
+                var city = Game.cities[position];
+                console.log("Start city:", city);
+                Game.thief.city(city);
+                Game.player.city(city);
+
+                var nextCity = Game.cities[parseInt(Math.random() * Game.cities.length, 10)];
+                Game.thief.city("Next City", nextCity);
 
                 // Turn to the first state
                 Game.engine.turn('city');
@@ -73,9 +83,6 @@
 
         // Reference to the canvas element
         this.$el = null;
-
-        // Current player
-        this.player = new Player();
     }
 
     Engine.prototype.registerState = function(state) {
@@ -133,14 +140,14 @@
     function Player() {
         this.name = "Sherlock Holmes";
 
-        this._city = null;
+        this._city = [];
         this._location = null;
     }
 
     Player.prototype.city = function(city) {
-        if (!arguments.length) return this._city;
+        if (!arguments.length) return this._city[this._city.length - 1];
 
-        this._city = city;
+        this._city.push(city);
         return this;
     };
 

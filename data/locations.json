@@ -27,7 +27,7 @@
         "id":   "moskou",
         "name": "Moskou",
         "map":  { "x": "0", "y": "0" },
-        "image": "",
+        "image": "moskou.jpg",
         "clues":     [],
         "locations": [
             { "id": "mausoleum",    "name": "Mausoleum", "image": "moskou_mausoleum.jpg" },
@@ -60,13 +60,11 @@
         ]
     },
 
-
-
     {
         "id":   "bombay",
         "name": "Bombay",
         "map":  { "x": "0", "y": "0" },
-        "image": "Bombay_Skyline.jpg",
+        "image": "bombay_skyline.jpg",
         "clues":     [],
         "locations": [
             { "id": "gateway", "name": "Gateway", "image": "Bombay_Gateway.jpg" },
@@ -90,7 +88,7 @@
 
     {
         "id":   "newyork",
-        "name": "New_York",
+        "name": "New York",
         "map":  { "x": "0", "y": "0" },
         "image": "New_York_skyline.jpg",
         "clues":     [],
