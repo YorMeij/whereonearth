@@ -11,4 +11,4 @@
     // Register this state with the Game engine
     Game.engine.states[state.name] = state;
 
-})(Game, State);
+})(window.Game, window.State);
