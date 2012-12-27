@@ -1,9 +1,10 @@
 [
     {
-        "id":          "mondriaan_1",
-        "name":        "Mondriaan",
-        "origin":      "Rijksmuseum, Amsterdam",
-        "description": "Mooi schilderij",
+        "id":          "globe",
+        "name":        "Hemelglobe",
+        "origin":      "Amsterdam Museum",
+        "image":       "globe.jpeg",
+        "description": "Deze hemelglobe uit 1640 is een bewerking van de eerste hemelglobe, die Willem Janszn. Blaeu omstreeks 1598 vervaardigde. Het zuidelijke gedeelte van de sterrenhemel was vóór het einde van de zestiende eeuw zo goed als onbekend. Dankzij grote overzeese expedities ontstond een nieuw beeld van hemel en aarde. Op één van de reizen van de Hollandse vloot naar Indië, werd zelfs een nieuwe ster ontdekt, die op de bol staat aangegeven als ‘Novae’.",
         "link":        "http://opencultuurdata.nl"
     }
 ]

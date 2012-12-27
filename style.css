@@ -16,6 +16,14 @@ body {
     min-height: 800px;
 }
 
+/* INTRO */
+.intro-view {
+
+}
+.intro-view img {
+    float: right;
+}
+
 /* AIRPORT STATE */
 
 .airport-view {
