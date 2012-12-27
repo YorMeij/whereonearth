@@ -16,6 +16,14 @@ body {
     min-height: 800px;
 }
 
+/* INTRO */
+.intro-view {
+
+}
+.intro-view img {
+    float: right;
+}
+
 /* AIRPORT STATE */
 
 .airport-view {
@@ -26,9 +34,8 @@ body {
     position: relative;
     min-height: 800px;
     background-image: url('/assets/world-map.png');
-    background-size: 100%;
+    background-size: 1280px;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 .airport-view .world-map .pin {
@@ -101,6 +108,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     position: absolute;
+    width: 300px;
     top: 200px;
     left: 150px;
 }

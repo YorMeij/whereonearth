@@ -32,13 +32,15 @@
         findClue: function(city, location) {
             var nextCity = this.findNextCity(city, location);
             if (nextCity === null) {
-                return city.clues[4];
+                return city.clues[3];
             }
 
             // we use the index off the location for selection of the clue
             for (var i = 0; i < 3; i++) {
                 if (location.id == city.locations[i].id) {
-                    //return nextCity.clues[i];
+                    if (nextCity.clues && nextCity.clues.length > 0) {
+                        return nextCity.clues[i];
+                    }
                     return "Placeholder clue " + i;
                 }
             }
