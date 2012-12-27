@@ -1,7 +1,11 @@
 (function(exports) {
 
     // Global namespace
-    var Game = exports.Game = {};
+    var Game = exports.Game = {
+        initialize: function() {
+
+        }
+    };
 
     // Create a new game engine
     Game.engine = new Engine();
@@ -43,23 +47,22 @@
     };
 
     /**
-     * Start the Game engine. This will render the splash screen
+     * Initialize the Game engine. This will render the splash screen and turn handling
+     * is done from there.
      */
-    Engine.prototype.start = function() {
+    Engine.prototype.initialize = function() {
         Game.log('Starting Game engine');
         this.turn('splash');
     };
 
     // State object skeleton
     exports.State = {
+        // Called once when starting the engine
         setup: function() {
             return true;
         },
-        draw: function() {
-            throw new Error('draw function not implemented');
-        },
-        update: function() {
-            return true;
+        render: function() {
+            throw new Error('render function not implemented');
         }
     };
 

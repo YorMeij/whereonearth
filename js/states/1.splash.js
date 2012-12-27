@@ -1,7 +1,10 @@
 (function(Game, State) {
 
     var state = _.extend({
-        "name": "splash"
+        "name": "splash",
+        "render": function() {
+
+        }
     }, State);
 
 
