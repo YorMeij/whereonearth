@@ -5,10 +5,11 @@
         // Create a simple debug logger
         log: debug('game'),
         artifacts: [],
-        locations: [],
+
         player: new Player(), // Current player
         thief: new Player(), // the thief
-
+        cities: [],
+        
         load: function(callback) {
             // Load queue
             var queue = [];

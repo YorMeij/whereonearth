@@ -2,7 +2,7 @@
     {
         "id":   "amsterdam",
         "name": "Amsterdam",
-        "map":  { "x": "0", "y": "0" },
+        "map":  { "x": "200", "y": "200" },
         "image": "amsterdam.jpg",
         "clues":     [],
         "locations": [
@@ -14,7 +14,7 @@
     {
         "id":   "london",
         "name": "London",
-        "map":  { "x": "0", "y": "0" },
+        "map":  { "x": "25", "y": "0" },
         "image": "london.jpg",
         "clues":     [],
         "locations": [
@@ -26,7 +26,7 @@
     {
         "id":   "moskou",
         "name": "Moskou",
-        "map":  { "x": "0", "y": "0" },
+        "map":  { "x": "55", "y": "0" },
         "image": "moskou.jpg",
         "clues":     [],
         "locations": [
@@ -38,7 +38,7 @@
     {
         "id":   "tokyo",
         "name": "Tokyo",
-        "map":  { "x": "0", "y": "0" },
+        "map":  { "x": "100", "y": "30" },
         "image": "tokyo.jpg",
         "clues":     [],
         "locations": [
