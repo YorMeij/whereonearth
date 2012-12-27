@@ -20,6 +20,7 @@
             var $target = $(event.target);
             var location = $target.data('location');
 
+            console.log(location);
             if (location === 'airport') {
                 return Game.engine.turn('airport');
             }
@@ -27,7 +28,7 @@
             // Update the player position
             this.city.locations.forEach(function(site) {
                 if (site.id === location) {
-                    Game.engine.location(site);
+                    Game.player.location(site);
                 }
             });
 

@@ -19,15 +19,15 @@
                 return available.id === cityName;
             });
 
-            Game.engine.player.city(city);
-            Game.engine.player.location(null);
+            Game.player.city(city);
+            Game.player.location(null);
 
             Game.engine.turn('city');
         },
         render: function() {
             var $el = this.$el;
 
-            var current = Game.engine.player.city();
+            var current = Game.player.city();
             var context = {
                 cities:  this.cities,
                 current: current

@@ -9,13 +9,18 @@
         player: new Player(), // Current player
         thief: new Player(), // the thief
         cities: [],
-        
         load: function(callback) {
             // Load queue
             var queue = [];
 
             // Load art objects
             // @FIXME Load art objects
+            queue.push(function(done) {
+                Game.engine.load('/data/art_objects.json', function(data) {
+                    Game.artifacts = data;
+                    done(null);
+                });
+            });
 
             // Load game locations
             queue.push(function(done) {
