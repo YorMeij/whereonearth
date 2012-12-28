@@ -1,6 +1,6 @@
-<div class="view intro-view">
-
-    <div>
+<img style="width:100%; position: relative;" src="/assets/intro-background.jpg"/>
+<div class="view intro-view" style="font-size:18px; margin-left: 50px; margin-top:50px; position:absolute; top: 0px;">
+    <div style=" background-color: #FFFFFF; width:800px;opacity: 0.8;border-radius: 10px; padding: 10px;">
         <p>
             Sherlock, er is een serieuze roof gepleegd en je hulp is hard nodig.
         </p>
@@ -8,8 +8,7 @@
             De beroemde kunstrover Albertus Jodokus Coerdes heeft het volgende voorwerp weten te stelen:
         </p>
 
-        <p>
-        <img src="/assets/{artifact.image}" />
+        <p style="padding: 25px;">
             {artifact.description}
         </p>
         <p>
@@ -17,7 +16,8 @@
         </p>
 
         <p>
-            <a class="go">Je start in {city.name}, veel succes!</a>
+            <a class="go">Je start in <span style="font-weigth:bold; font-size:20px;">{city.name}</span>, veel succes!</a>
         </p>
     </div>
+    <img style="float:right;width: 300px; top: 0px; margin-right:50px; position: absolute; right: 25px;" src="/assets/{artifact.image}" />
 </div>
