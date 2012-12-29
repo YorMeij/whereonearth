@@ -65,7 +65,7 @@ body {
 .city-view .title {
     font-size: 46pt;
     font-weight: bold;
-    color: white;
+    color: #999999;
     position: absolute;
     top: 50px;
     left: 150px;
@@ -98,7 +98,7 @@ body {
 .location-view .title {
     font-size: 46pt;
     font-weight: bold;
-    color: white;
+    color: #999999;
     position: absolute;
     top: 50px;
     left: 150px;
