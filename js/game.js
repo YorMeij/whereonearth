@@ -72,6 +72,14 @@
                 // Turn to the first state
                 Game.engine.turn('intro');
             });
+        },
+
+        findNewCity: function(currentCity) {
+            var city = this.cities[parseInt(Math.random() * 90 % 8)];
+            if (currentCity.id == city.id) {
+                return this.findNewCity(currentCity);
+            }
+            return city;
         }
     };
 

@@ -22,6 +22,8 @@
             Game.player.city(city);
             Game.player.location(null);
 
+            Game.thief.city(Game.findNewCity(Game.thief.city()));
+
             Game.engine.turn('city');
         },
         render: function() {
