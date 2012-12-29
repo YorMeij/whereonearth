@@ -123,7 +123,7 @@
 
     {
         "id":   "newyork",
-        "name": "New_York",
+        "name": "New York",
         "map":  { "x": "320", "y": "150" },
         "image": "New_York_skyline.jpg",
         "clues":     [
@@ -135,7 +135,7 @@
         "locations": [
             { "id": "broadway", "name": "Broadway", "image": "New_York_Broadway.jpg" },
             { "id": "vrijheidsbeeld", "name": "Vrijheidsbeeld", "image": "New_York_Statue.jpg" },
-            { "id": "wallstreet",   "name": "Wall_Street", "image": "New_York_Wall street.jpg" }
+            { "id": "wallstreet",   "name": "Wall Street", "image": "New_York_Wall street.jpg" }
         ]
     },
 

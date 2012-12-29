@@ -24,6 +24,25 @@ body {
     float: right;
 }
 
+.intro-view .Credits{
+    top: 500px;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 800px;
+    opacity: 0.7;
+    border-radius: 10px;}
+
+.intro-view .Credits ul{
+    list-style: none;}
+
+.intro-view .Credits li{
+    padding: 5px;}
+
+.intro-view .Credits .credit-name{
+    font-weight: bold;
+    font-size: 20px;}
+
 /* AIRPORT STATE */
 
 .airport-view {
@@ -107,6 +126,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    opacity: 0.7;
     position: absolute;
     max-width: 600px;
     min-height: 400px;
