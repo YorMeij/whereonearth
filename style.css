@@ -43,6 +43,21 @@ body {
     font-weight: bold;
     font-size: 20px;}
 
+.intro-view .rules {
+    position: absolute;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 350px;
+    left: 850px;
+    top: 400px;}
+
+.intro-view .rules ul{
+    list-style: none;}
+
+.intro-view .rules li{
+    padding: 5px;}
+
 /* AIRPORT STATE */
 
 .airport-view {

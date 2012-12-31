@@ -23,4 +23,7 @@
     // End state (won/lost)
     states.end = _.extend({}, State);
 
+    // Win state
+    states.winning = _extend({},State);
+
 })(window);

@@ -1,6 +1,6 @@
 (function(Game, State) {
 
-
+    var count = parseInt(0,10);
     var LocationView = Backbone.View.extend({
         events: {
             "click .option": "turn"
@@ -8,7 +8,7 @@
         initialize: function(options) {
             // Placeholder for our template
             this.template = options.template;
-
+            this.thiefCity = Game.thief.city();
             // Get the player location
             this.city = Game.player.city();
             this.location = Game.player.location();
@@ -16,7 +16,7 @@
             this.clue = this.findClue(this.city, this.location);
             console.log(this.location);
             console.log("Clue:", this.clue);
-            
+
         },
         findNextCity: function(city, location) {
             for (var i = 0; i < Game.thief._city.length; i++) {
@@ -24,8 +24,15 @@
                 if (city.id === _city.id) {
                     var nextCity = Game.thief._city[i + 1];
                     console.log("Next city:", nextCity);
+                    count = parseInt(count +1,10);
+                    if (count == 4){
+                        console.log('counter works');
+                        Game.engine.turn('intro');
+                    }
+                    console.log("Counter is ", count);
                     return nextCity;
                 }
+
             }
             return null;
         },
@@ -33,6 +40,8 @@
             var nextCity = this.findNextCity(city, location);
             if (nextCity === null) {
                 console.log("Dead end clue");
+                count = parseInt(0,10);
+                console.log('count is',  count);
                 return city.clues[3];
             }
 
