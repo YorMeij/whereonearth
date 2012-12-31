@@ -1,0 +1,8 @@
+Het spel moet uiteindelijk op een webserver draaien.
+Het is daarom ook het mooist om even een webservertje op te starten op de computer.
+Als je python op je computer hebt staan (zoals elke linux en een groot deel van de mac's):
+    ga naar de hoofdmap van het spel.
+    start daar een terminal.
+    typ dan (kopieer en plak) " python -m SimpleHTTPServer"
+    ga naar je internet browser en typ "localhost:8000"
+    geniet van het spelletje
