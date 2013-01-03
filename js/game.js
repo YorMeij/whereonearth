@@ -16,7 +16,7 @@
             // Load art objects
             // @FIXME Load art objects
             queue.push(function(done) {
-                Game.engine.load('/data/art_objects.json', function(data) {
+                Game.engine.load('http://yormeij.github.com/whereonearth/data/art_objects.json', function(data) {
                     Game.artifacts = data;
                     done(null);
                 });
@@ -24,7 +24,7 @@
 
             // Load game locations
             queue.push(function(done) {
-                Game.engine.load('/data/locations.json', function(data) {
+                Game.engine.load('http://yormeij.github.com/whereonearth/data/locations.json', function(data) {
                     Game.cities = data;
                     done(null);
                 });
