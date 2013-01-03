@@ -97,7 +97,7 @@
     // Build a new state object
     var state = _.defaults({
         name: "location",
-        templateUrl: '/templates/location.html',
+        templateUrl: 'http://yormeij.github.com/whereonearth/templates/location.html',
         render: function(canvas) {
             // Build a new View
             var view = new LocationView({
