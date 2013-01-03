@@ -30,7 +30,7 @@
     // Build a new state object
     var state = _.defaults({
         name: "intro",
-        templateUrl: '/templates/intro.html',
+        templateUrl: 'http://yormeij.github.com/whereonearth/templates/intro.html',
         render: function(canvas) {
             // Build a new View
             var view = new IntroView({
