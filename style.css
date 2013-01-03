@@ -67,7 +67,7 @@ body {
 .airport-view .world-map {
     position: relative;
     min-height: 800px;
-    background-image: url('/assets/world-map.png');
+    background-image: url('http://yormeij.github.com/whereonearth/assets/world-map.png');
     background-size: 1280px;
     background-repeat: no-repeat;
 }
@@ -88,7 +88,7 @@ body {
 /* CITY STATE */
 
 .city-view {
-    background-image: url('/assets/New_York_skyline.jpg');
+    background-image: url('http://yormeij.github.com/whereonearth/assets/New_York_skyline.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -121,7 +121,7 @@ body {
 
 /* LOCATION STATE */
 .location-view {
-    background-image: url('assets/New_York_skyline.jpg');
+    background-image: url('http://yormeij.github.com/whereonearth/assets/New_York_skyline.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
