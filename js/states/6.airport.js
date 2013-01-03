@@ -70,7 +70,7 @@
     // Build a new state object
     var state = _.defaults({
         name: "airport",
-        templateUrl: '/templates/airport.html',
+        templateUrl: 'http://yormeij.github.com/whereonearth/templates/airport.html',
         render: function(canvas) {
             // Build a new View
             var view = new AirportView({
